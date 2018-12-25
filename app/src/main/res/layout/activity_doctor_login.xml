@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adnanshakeel.healthcare.DoctorLoginActivity"
+    android:orientation="vertical"
+    android:background="#bdbdbd">
+
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/doclogin"
+        />
+
+        <EditText
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your E-mail Here"
+            android:id="@+id/editEmail"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:layout_marginHorizontal="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Passwad Here"
+            android:id="@+id/editPassward"
+            android:inputType="textPassword"/>
+    <Button
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        android:background="@color/Transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORGET PASSWARD"
+        android:textSize="15dp"
+        android:layout_marginHorizontal="50dp"
+
+        android:id="@+id/btnFoget_Passwad"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <Button
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/Transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="30dp"
+        android:layout_marginHorizontal="50dp"
+
+        android:id="@+id/btnLogin"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSignup"
+            android:text="Add Doctor?"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnDoctorSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="20dp"
+            android:background="@color/Transparent"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginRight="40dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

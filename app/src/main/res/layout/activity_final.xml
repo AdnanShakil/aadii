@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adnanshakeel.healthcare.Final">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+     <TextView
+         android:layout_marginTop="10dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="CONFIRMATION REPORT"
+         android:textSize="30dp"
+         android:layout_marginLeft="35dp"
+         android:textColor="@color/colorPrimary"
+         android:id="@+id/txtconfirm"/>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="500dp">
+
+ </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:textSize="30dp"
+            android:background="@color/Transparent"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/btnback3"
+            android:layout_marginLeft="40dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/btnExit1"
+            android:layout_marginLeft="150dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

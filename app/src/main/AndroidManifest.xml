@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.adnanshakeel.healthcare">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/download"
+        android:label="HealthCare"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="userPortrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LauncherActivity"
+            android:screenOrientation="userPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".DoctorLoginActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".DoctorActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".PatientActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".RecordActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".PatientDetailActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".HistoryActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".MedicineActivity"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppointmentListActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".Receipt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PatientLoginActivity" />
+        <activity android:name=".PatientSignupActivity" />
+        <activity android:name=".PatientsActivity" />
+        <activity android:name=".DoctorSignupActivity" />
+        <activity android:name=".PatientHistory" />
+        <activity android:name=".PatientAppointment" />
+        <activity android:name=".Final"></activity>
+    </application>
+
+</manifest>
